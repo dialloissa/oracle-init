@@ -1,0 +1,39 @@
+{
+  "name": "oracles-init",
+  "version": "12.1.1",
+  "description": "A standalone script that can be used in order to import SQL data, related with the different kinds of oracles..",
+  "main": "index.js",
+  "scripts": {
+    "audit:resolve": "SHELL=sh resolve-audit",
+    "audit:check": "SHELL=sh check-audit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "node index.js",
+    "test": "jest test/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casablanca-project/oracles-init.git"
+  },
+  "author": "ModusBox Inc.",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/casablanca-project/oracles-init/issues"
+  },
+  "homepage": "https://github.com/casablanca-project/oracles-init#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "jest": "^24.8.0",
+    "npm-audit-resolver": "^2.2.1"
+  },
+  "dependencies": {
+    "check-types": "^10.0.0",
+    "dotenv": "^8.0.0",
+    "knex": "^0.19.4",
+    "knex-on-duplicate-update": "^1.1.1",
+    "mock-knex": "^0.4.6",
+    "mysql2": "^1.7.0"
+  }
+}
