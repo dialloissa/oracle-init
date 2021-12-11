@@ -33,7 +33,7 @@
     "dotenv": "^8.0.0",
     "knex": "^0.19.4",
     "knex-on-duplicate-update": "^1.1.1",
-    "mock-knex": "^0.4.6",
+    "mock-knex": "^0.4.10",
     "mysql2": "^1.7.0"
   }
 }
