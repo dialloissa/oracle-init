@@ -29,7 +29,7 @@
     "npm-audit-resolver": "^2.2.1"
   },
   "dependencies": {
-    "check-types": "^10.0.0",
+    "check-types": "^10.1.2",
     "dotenv": "^8.0.0",
     "knex": "^0.19.4",
     "knex-on-duplicate-update": "^1.1.1",
