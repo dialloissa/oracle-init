@@ -1,4 +1,4 @@
-FROM node:12.18.3-alpine AS builder
+FROM node:12.22.12-alpine AS builder
 
 WORKDIR /src
 
@@ -6,7 +6,7 @@ COPY ./src/package.json ./src/package-lock.json /src/
 
 RUN npm ci --only=production
 
-FROM node:12.18.3-alpine
+FROM node:12.22.12-alpine
 
 WORKDIR /src
 CMD ["node", "/src/index.js"]
