@@ -34,6 +34,6 @@
     "knex": "^0.19.4",
     "knex-on-duplicate-update": "^1.1.1",
     "mock-knex": "^0.4.6",
-    "mysql2": "^1.7.0"
+    "mysql2": "^3.9.7"
   }
 }
