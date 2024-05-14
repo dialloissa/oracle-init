@@ -31,7 +31,7 @@
   "dependencies": {
     "check-types": "^10.0.0",
     "dotenv": "^8.0.0",
-    "knex": "^0.19.4",
+    "knex": "^0.95.0",
     "knex-on-duplicate-update": "^1.1.1",
     "mock-knex": "^0.4.6",
     "mysql2": "^1.7.0"
